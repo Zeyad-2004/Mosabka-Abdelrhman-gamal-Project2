@@ -17,11 +17,11 @@ body{
 
     footer{ 
 
-        height: 700px;
+        height: 650px;
         background: url(images/Group\ 1131.png);
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: contain;
+        background-size: cover;
 
         .container{
             height: 100%;
