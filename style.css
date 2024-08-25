@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --global-padding: 100px;
+}
+
+*{
+    position: relative;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+
+    footer{ 
+
+        height: 700px;
+        background: url(images/Group\ 1131.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+
+        .container{
+            height: 100%;
+
+            padding: 0 var(--global-padding);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .up{
+
+                padding: 0 39%;
+                .text{
+                    color: #989898;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                    text-transform: capitalize;
+                }
+            }
+            .down{
+        
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                
+                
+                .left{
+
+                    .downloads{
+
+                        display: flex;
+                        gap: 20px;
+                        margin-bottom: 40px;
+                        
+                        .stores{
+
+                            display: flex;
+                            gap: 10px;
+                            padding: 10px 20px;
+                            border-radius: 20px;
+                            background-color: #fff;
+
+                            .image{
+
+                            }
+                            .text{
+
+                                display: flex;
+                                flex-direction: column;
+                                color: #757474;
+
+                                .top{
+                                    font-size: 12px;
+                                }
+                                .store{
+                                    font-size: 16xpx;
+                                }
+                            }
+                        }
+                    }
+                    .social-media{
+
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 20px;
+
+                        .icon{
+                            object-fit: cover;
+                        }
+                        .instagram, .whatsapp{
+                            width: 30px;
+                        }
+                        .facebook{
+                            width: 20px;
+                        }
+                    }
+                    .buttons{
+                        display: flex;
+                        gap: 70px;
+                        padding: 40px 0;
+
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+
+                            p{
+                                font-size: 18px;
+                                font-weight: 500;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .right{
+                    margin-right: 120px;
+                    width: 600px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    
+                    img{
+                        object-fit: cover;
+                        width: 120%;
+                        /* width: 500px; */
+                        /* transform: scale(1.3); */
+                    }
+                }
+            }
+        }
+    }
+}
